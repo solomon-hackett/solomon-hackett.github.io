@@ -1,25 +1,73 @@
 /* mainpage */
+body{
+    background-color: black;
+    background-image: url('/images/background.png');
+}
 .nav{
-    text-align: right ;
-    flex-direction: row;
     width: 100%;
-    
+    text-align: right;
+    font-family: 'dosis';
+    top:0%;
+    position: fixed;
+    z-index: 100000000000000;
 }
 .nav ul{
     list-style: none;
     display: inline-flex;
-    gap:3vw;
-    padding-right:5% ;
+    gap:100px;
+    padding-right:2% ;
 }
-/* .splash{ }*/
+.nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 50px;
+}
+.splash{
+    color:white;
+    font-family: "Jaro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-right: 3%;
+    padding-top: 200px;
+}
+.heading h1{
+    float:right;
+    font-size: 170px;
+    margin:0px;
+}
+.heading h2{
+    font-size: 50px;
+    margin-top: 0%;
+}
+.about{
+    display:flex;
+    margin-top:500px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
     
-
-
+/* for tablets */
+@media only screen and (min-width:600px) and (max-width:900px){
+    html{
+        scroll-behavior: smooth;
+    }
+}
 /* for phones */
 
 @media only screen and (max-width:600px){
     body{
         background-color: black;
+        background-image: url("/images/mobile-background.png");
+        background-size: contain;
+        background-attachment: fixed;
     }
     .nav{
         width: 100%;
@@ -31,13 +79,13 @@
         list-style: none;
         display: flex;
         justify-content:center;
-        gap:13vw;
+        gap:60px;
         padding-right:5% ;
     }
     .nav a{
         text-decoration: none;
         color:white;
-        font-size: 5vw;
+        font-size: 20px;
     }
     .splash{
         color:white;
@@ -52,16 +100,19 @@
         float:right;
         text-align: right;
         padding-right: 3%;
-        margin-top: 3%;
+        margin-top: 100px;
     }
     .heading h1{
         float:right;
-        font-size: 13vw;
-        margin-bottom: 0;
+        font-size: 50px;
+        margin:0px;
     }
     .heading h2{
-        font-size: 6vw;
+        font-size: 27px;
         margin-top: 0%;
+    }
+    html{
+        scroll-behavior: smooth;
     }
 }
 
