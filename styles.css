@@ -22,6 +22,9 @@ body{
     color:white;
     font-size: 50px;
 }
+.nav a:hover{
+    color:grey
+}
 .splash{
     color:white;
     font-family: "Jaro", sans-serif;
@@ -75,7 +78,7 @@ html{
         font-family: 'dosis';
         top:0%;
         position: fixed;
-        z-index: 100000000000000;
+        z-index: 999;
     }
     .nav ul{
         list-style: none;
@@ -120,6 +123,7 @@ html{
     }    
     html{
         scroll-behavior: smooth;
+        overflow: hidden;
     }
 }
 
