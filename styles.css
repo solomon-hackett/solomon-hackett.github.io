@@ -1,4 +1,5 @@
 /* mainpage */
+@media only screen and (min-width:900px){
 body{
     background-color: black;
     background-image: url('/images/background.png');
@@ -56,7 +57,7 @@ body{
 html{
     scroll-behavior: smooth;
 }
-    
+}
 /* for tablets */
 @media only screen and (min-width:600px) and (max-width:900px){
     body{
