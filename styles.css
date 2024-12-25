@@ -190,6 +190,9 @@ html{
     .contact p{
         font-family: 'dosis';
     }
+    .contact a{
+        color:white;
+    }
     html{
         scroll-behavior: smooth;
         overflow: hidden;
