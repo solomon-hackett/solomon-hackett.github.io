@@ -177,7 +177,19 @@ html{
         display:flex;
         margin-top:500px;
         flex-direction: column;
-    }    
+    }  
+    .contact{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .contact h1{
+        font-family: "Jaro";
+    }
+    .contact p{
+        font-family: 'dosis';
+    }
     html{
         scroll-behavior: smooth;
         overflow: hidden;
