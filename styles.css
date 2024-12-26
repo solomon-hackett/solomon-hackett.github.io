@@ -117,13 +117,12 @@
       font-family: "dosis";
       display: flex;
       flex-direction: column;
-      gap:20px;
+      gap:35px;
       margin-bottom: 300px;
       
       .infoPair{
         display:flex;
         flex-direction:column;
-        gap:10p;
       }
 
     }
