@@ -80,7 +80,9 @@
       background-repeat: repeat-x;
       font-family: "Jaro", sans-serif;
     }
-
+    .aboutHeading img{
+      margin-left: 3%;
+    }
     .info {
       padding-right: 4%;
       text-align: right;
