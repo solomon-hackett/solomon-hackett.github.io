@@ -27,8 +27,8 @@
   .nav a:hover {
     color: grey;
   }
-  .selected{
-    color:aqua;
+  .selected {
+    color: aqua;
   }
   .splash {
     color: white;
@@ -80,7 +80,7 @@
       background-repeat: repeat-x;
       font-family: "Jaro", sans-serif;
     }
-    .aboutHeading img{
+    .aboutHeading img {
       margin-left: 3%;
     }
     .info {
@@ -119,19 +119,18 @@
       font-family: "dosis";
       display: flex;
       flex-direction: column;
-      gap:35px;
+      gap: 35px;
       margin-bottom: 300px;
-      
-      .infoPair{
-        display:flex;
-        flex-direction:column;
-      }
 
+      .infoPair {
+        display: flex;
+        flex-direction: column;
+      }
     }
 
     .info h1 {
-      font-weight:bold;
-      margin:0;
+      font-weight: bold;
+      margin: 0;
       font-size: 50px;
       background: linear-gradient(to right, #148ba0, #f9dd94 100%);
       background-position: 0 85%;
@@ -140,27 +139,26 @@
       width: fit-content;
       float: right;
     }
-    .info p{
-        font-weight: light;
-        margin:0;
-        font-size: 40px;
+    .info p {
+      font-weight: light;
+      margin: 0;
+      font-size: 40px;
     }
-    .info a{
-        font-weight: light;
-        margin:0;
-        font-size: 40px;
-        color: white;
-        text-decoration: none;
+    .info a {
+      font-weight: light;
+      margin: 0;
+      font-size: 40px;
+      color: white;
+      text-decoration: none;
     }
-    .info a:visited{
-        font-weight: light;
-        margin:0;
-        font-size: 40px;
-        color: rgb(129, 124, 124);
+    .info a:visited {
+      font-weight: light;
+      margin: 0;
+      font-size: 40px;
+      color: rgb(129, 124, 124);
     }
   }
 
-  
   html {
     scroll-behavior: smooth;
   }
@@ -191,8 +189,8 @@
     color: white;
     font-size: 50px;
   }
-  .selected{
-    color:aqua;
+  .selected {
+    color: aqua;
   }
   .splash {
     color: white;
@@ -244,9 +242,9 @@
       background-repeat: repeat-x;
       font-family: "Jaro", sans-serif;
       width: fit-content;
-      margin-top:100px;
+      margin-top: 100px;
     }
-    .aboutHeading img{
+    .aboutHeading img {
       margin-left: 3%;
       margin-top: 450px;
     }
@@ -257,12 +255,10 @@
       margin-top: 150px;
       font-family: "dosis";
       font-weight: 300;
-    }
-
-    .info p {
       font-size: 35px;
     }
   }
+
   .contact {
     display: flex;
     margin-top: 500px;
@@ -277,7 +273,7 @@
       background-size: 100% 2px;
       background-repeat: repeat-x;
       font-family: "Jaro", sans-serif;
-      margin-top:100px;
+      margin-top: 100px;
     }
 
     .info {
@@ -287,19 +283,18 @@
       font-family: "dosis";
       display: flex;
       flex-direction: column;
-      gap:35px;
+      gap: 35px;
       margin-bottom: 300px;
-      
-      .infoPair{
-        display:flex;
-        flex-direction:column;
-      }
 
+      .infoPair {
+        display: flex;
+        flex-direction: column;
+      }
     }
 
     .info h1 {
-      font-weight:bold;
-      margin:0;
+      font-weight: bold;
+      margin: 0;
       font-size: 40px;
       background: linear-gradient(to right, #148ba0, #f9dd94 100%);
       background-position: 0 85%;
@@ -308,28 +303,29 @@
       width: fit-content;
       float: right;
     }
-    .info p{
-        font-weight: light;
-        margin:0;
-        font-size: 30px;
+    .info p {
+      font-weight: light;
+      margin: 0;
+      font-size: 30px;
     }
-    .info a{
-        font-weight: light;
-        margin:0;
-        font-size: 40px;
-        color: white;
-        text-decoration: none;
+    .info a {
+      font-weight: light;
+      margin: 0;
+      font-size: 40px;
+      color: white;
+      text-decoration: none;
     }
-    .info a:visited{
-        font-weight: light;
-        margin:0;
-        font-size: 40px;
-        color: rgb(129, 124, 124);
+    .info a:visited {
+      font-weight: light;
+      margin: 0;
+      font-size: 40px;
+      color: rgb(129, 124, 124);
     }
-  }
-  html {
-    scroll-behavior: smooth;
-    overflow: hidden;
+
+    html {
+      scroll-behavior: smooth;
+      overflow: hidden;
+    }
   }
 }
 /* for phones */
@@ -337,166 +333,126 @@
 @media only screen and (max-width: 800px) {
   body {
     background-color: black;
-    background-image: url("/images/background.png");
+    background-image: url("/images/mobile-background.png");
     background-attachment: fixed;
   }
   .nav {
     width: 100%;
-    text-align: right;
+    text-align: center;
     font-family: "dosis";
     top: 0%;
     position: fixed;
-    z-index: 1000;
+    z-index: 999;
   }
   .nav ul {
     list-style: none;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 10vw;
-    padding-right: 2%;
+    gap: 15vw;
+    padding-right: 10%;
   }
   .nav a {
     text-decoration: none;
     color: white;
-    font-size: 50px;
-  }
-  .selected{
-    color:aqua;
+    font-size: 5vw;
   }
   .splash {
     color: white;
     font-family: "Jaro", sans-serif;
     font-optical-sizing: auto;
-    font-weight: lighter;
+    font-weight: 200;
     font-style: normal;
-    display: flex;
-    justify-content: right;
+    padding-top: 200px;
   }
   .heading {
+    display: flex;
+    flex-direction: column;
     text-align: right;
     padding-right: 3%;
-    padding-top: 200px;
-    width: fit-content;
   }
   .heading h1 {
-    text-align: right;
-    font-size: 125px;
-    margin: 0px;
-    background: linear-gradient(to right, #148ba0, #f9dd94 100%);
-    background-position: 0 85%;
-    background-size: 100% 2px;
-    background-repeat: repeat-x;
-  }
-  .heading h2 {
-    text-align: right;
     float: right;
     font-size: 50px;
+    margin: 0px;
+  }
+  .heading h2 {
+    font-size: 27px;
     margin-top: 0%;
-    width: fit-content;
-    background: linear-gradient(to right, #148ba0, #f9dd94 100%);
-    background-position: 0 85%;
-    background-size: 100% 2px;
-    background-repeat: repeat-x;
   }
   .about {
     display: flex;
     margin-top: 500px;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     color: white;
-
+    align-items: center;
     .aboutHeading h1 {
-      font-size: 70px;
-      background: linear-gradient(to left, #148ba0, #f9dd94 100%);
-      background-position: 0 85%;
-      background-size: 100% 2px;
-      background-repeat: repeat-x;
+      font-size: 50px;
       font-family: "Jaro", sans-serif;
-      width: fit-content;
-      margin-top:100px;
-    }
-    .aboutHeading img{
-      margin-left: 3%;
-      margin-top: 450px;
+      margin-top: 100px;
     }
     .info {
-      padding-right: 4%;
-      text-align: right;
-      max-width: 900px;
-      margin-top: 150px;
+      text-align: center;
       font-family: "dosis";
-      font-weight: 300;
-    }
-
-    .info p {
-      font-size: 35px;
+      font-weight: 200;
+      font-size: 5vw;
+      padding-left: 2%;
+      padding-right: 2%;
     }
   }
-  .contact {
-    display: flex;
-    margin-top: 500px;
-    flex-direction: row;
-    justify-content: space-between;
-    color: white;
-
-    .contactHeading h1 {
-      font-size: 80px;
-      background: linear-gradient(to left, #148ba0, #f9dd94 100%);
-      background-position: 0 85%;
-      background-size: 100% 2px;
-      background-repeat: repeat-x;
-      font-family: "Jaro", sans-serif;
-      margin-top:100px;
-    }
-
-    .info {
-      padding-right: 4%;
-      text-align: right;
-      margin-top: 250px;
-      font-family: "dosis";
+.contact{
+  display:flex;
+  margin-top: 500px;
+  flex-direction:column;
+  justify-content: space-between;
+  color:white;
+  gap:5vw;
+  margin-bottom: 100px;
+  .contactHeading h1{
+    font-size:50px;
+    font-family: "Jaro", sans-serif;
+    text-align: center;
+  }
+  .info{
+    font-family: 'dosis';
+    display:flex;
+    flex-direction:column;
+    gap: 3vw;
+    .infoPair{
       display: flex;
       flex-direction: column;
-      gap:35px;
-      margin-bottom: 300px;
-      
-      .infoPair{
-        display:flex;
-        flex-direction:column;
-      }
-
-    }
-
-    .info h1 {
-      font-weight:bold;
-      margin:0;
-      font-size: 40px;
-      background: linear-gradient(to right, #148ba0, #f9dd94 100%);
-      background-position: 0 85%;
-      background-size: 100% 2px;
-      background-repeat: repeat-x;
-      width: fit-content;
-      float: right;
-    }
-    .info p{
-        font-weight: light;
-        margin:0;
-        font-size: 30px;
-    }
-    .info a{
-        font-weight: light;
-        margin:0;
-        font-size: 40px;
-        color: white;
-        text-decoration: none;
-    }
-    .info a:visited{
-        font-weight: light;
-        margin:0;
-        font-size: 40px;
-        color: rgb(129, 124, 124);
+      gap:1vw;
     }
   }
+  .info h1{
+    padding-left: 5%;
+    font-weight: bold;
+    margin: 0;
+    font-size: 40px;
+  }
+  .info p{
+    font-weight: light;
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+  }
+  .info a{
+    font-weight: light;
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+  }
+  .info a:visited{
+    font-weight: light;
+    margin: 0;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(129, 124, 124);
+    text-decoration: none;
+
+  }
+}
   html {
     scroll-behavior: smooth;
     overflow: hidden;
