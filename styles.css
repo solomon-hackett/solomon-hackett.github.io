@@ -166,7 +166,7 @@
   }
 }
 /* for tablets */
-@media only screen and (min-width: 600px) and (max-width: 1500px) {
+@media only screen and (min-width: 800px) and (max-width: 1500px) {
   body {
     background-color: black;
     background-image: url("/images/background.png");
@@ -175,51 +175,158 @@
   }
   .nav {
     width: 100%;
-    text-align: center;
+    text-align: right;
     font-family: "dosis";
     top: 0%;
     position: fixed;
-    z-index: 999;
+    z-index: 1000;
   }
   .nav ul {
     list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-    padding-right: 5%;
+    display: inline-flex;
+    gap: 15vw;
+    padding-right: 2%;
   }
   .nav a {
     text-decoration: none;
     color: white;
     font-size: 50px;
   }
+  .selected{
+    color:aqua;
+  }
   .splash {
     color: white;
-    font-family: "jaro", sans-serif;
+    font-family: "Jaro", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 300;
+    font-weight: lighter;
     font-style: normal;
+    display: flex;
+    justify-content: right;
   }
   .heading {
-    display: flex;
-    flex-direction: column;
     text-align: right;
     padding-right: 3%;
-    margin-top: 100px;
+    padding-top: 200px;
+    width: fit-content;
   }
   .heading h1 {
-    float: right;
-    font-size: 75px;
+    text-align: right;
+    font-size: 125px;
     margin: 0px;
+    background: linear-gradient(to right, #148ba0, #f9dd94 100%);
+    background-position: 0 85%;
+    background-size: 100% 2px;
+    background-repeat: repeat-x;
   }
   .heading h2 {
-    font-size: 35px;
+    text-align: right;
+    float: right;
+    font-size: 50px;
     margin-top: 0%;
+    width: fit-content;
+    background: linear-gradient(to right, #148ba0, #f9dd94 100%);
+    background-position: 0 85%;
+    background-size: 100% 2px;
+    background-repeat: repeat-x;
   }
   .about {
     display: flex;
     margin-top: 500px;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+
+    .aboutHeading h1 {
+      font-size: 70px;
+      background: linear-gradient(to left, #148ba0, #f9dd94 100%);
+      background-position: 0 85%;
+      background-size: 100% 2px;
+      background-repeat: repeat-x;
+      font-family: "Jaro", sans-serif;
+      width: fit-content;
+      margin-top:100px;
+    }
+    .aboutHeading img{
+      margin-left: 3%;
+      margin-top: 450px;
+    }
+    .info {
+      padding-right: 4%;
+      text-align: right;
+      max-width: 900px;
+      margin-top: 150px;
+      font-family: "dosis";
+      font-weight: 300;
+    }
+
+    .info p {
+      font-size: 35px;
+    }
+  }
+  .contact {
+    display: flex;
+    margin-top: 500px;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+
+    .contactHeading h1 {
+      font-size: 80px;
+      background: linear-gradient(to left, #148ba0, #f9dd94 100%);
+      background-position: 0 85%;
+      background-size: 100% 2px;
+      background-repeat: repeat-x;
+      font-family: "Jaro", sans-serif;
+      margin-top:100px;
+    }
+
+    .info {
+      padding-right: 4%;
+      text-align: right;
+      margin-top: 250px;
+      font-family: "dosis";
+      display: flex;
+      flex-direction: column;
+      gap:35px;
+      margin-bottom: 300px;
+      
+      .infoPair{
+        display:flex;
+        flex-direction:column;
+      }
+
+    }
+
+    .info h1 {
+      font-weight:bold;
+      margin:0;
+      font-size: 40px;
+      background: linear-gradient(to right, #148ba0, #f9dd94 100%);
+      background-position: 0 85%;
+      background-size: 100% 2px;
+      background-repeat: repeat-x;
+      width: fit-content;
+      float: right;
+    }
+    .info p{
+        font-weight: light;
+        margin:0;
+        font-size: 30px;
+    }
+    .info a{
+        font-weight: light;
+        margin:0;
+        font-size: 40px;
+        color: white;
+        text-decoration: none;
+    }
+    .info a:visited{
+        font-weight: light;
+        margin:0;
+        font-size: 40px;
+        color: rgb(129, 124, 124);
+    }
   }
   html {
     scroll-behavior: smooth;
@@ -228,7 +335,7 @@
 }
 /* for phones */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   body {
     background-color: black;
     background-image: url("/images/mobile-background.png");
