@@ -1,5 +1,5 @@
 /* mainpage */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1500px) {
   body {
     background-color: black;
     background-image: url("/images/background.png");
@@ -166,7 +166,7 @@
   }
 }
 /* for tablets */
-@media only screen and (min-width: 600px) and (max-width: 900px) {
+@media only screen and (min-width: 600px) and (max-width: 1500px) {
   body {
     background-color: black;
     background-image: url("/images/background.png");
