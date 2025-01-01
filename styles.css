@@ -245,8 +245,8 @@
       margin-top: 100px;
     }
     .aboutHeading img {
-      margin-left: 3%;
-      margin-top: 450px;
+      margin-left: 2%;
+      margin-top: 42vw;
     }
     .info {
       padding-right: 4%;
@@ -255,7 +255,7 @@
       margin-top: 150px;
       font-family: "dosis";
       font-weight: 300;
-      font-size: 35px;
+      font-size: 3.2vw;
     }
   }
 
@@ -329,6 +329,7 @@
   }
 }
 /* for phones */
+
 
 @media only screen and (max-width: 800px) {
   body {
