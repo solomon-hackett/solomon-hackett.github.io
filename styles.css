@@ -214,7 +214,7 @@
     background-position: 0 85%;
     background-size: 100% 2px;
     background-repeat: repeat-x;
-    font-weight: 100;
+    font-weight: 300;
   }
   .heading h2 {
     text-align: right;
@@ -226,6 +226,7 @@
     background-position: 0 85%;
     background-size: 100% 2px;
     background-repeat: repeat-x;
+    font-weight: 300;
   }
   .about {
     display: flex;
@@ -243,6 +244,7 @@
       font-family: "Jaro", sans-serif;
       width: fit-content;
       margin-top: 100px;
+      font-weight: 300;
     }
     .aboutHeading img {
       margin-left: 2%;
@@ -274,6 +276,7 @@
       background-repeat: repeat-x;
       font-family: "Jaro", sans-serif;
       margin-top: 100px;
+      font-weight: 300;
     }
 
     .info {
