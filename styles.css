@@ -16,7 +16,7 @@
   .nav ul {
     list-style: none;
     display: inline-flex;
-    gap: 100px;
+    gap: 75px;
     padding-right: 2%;
   }
   .nav a {
@@ -188,9 +188,12 @@
       text-align:right;
       font-size: 40px;
       margin-right:3%;
+    }
+    .infoPairs p1{
+      text-align:left;
+      font-size: 40px;
       margin-left:2%;
     }
-
   }
   html {
     scroll-behavior: smooth;
