@@ -85,6 +85,7 @@
       margin-left: 3%;
       width: fit-content;
       height: fit-content;
+      overflow:hidden;
       
     }
     .info {
@@ -289,6 +290,7 @@
     .aboutHeading iframe {
       margin-left: 2%;
       margin-top: 42vw;
+      overflow:hidden;
     }
     .info {
       padding-right: 4%;
