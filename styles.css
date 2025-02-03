@@ -81,7 +81,7 @@
       background-repeat: repeat-x;
       font-family: "Jaro", sans-serif;
     }
-    .aboutHeading img {
+    .aboutHeading iframe {
       margin-left: 3%;
     }
     .info {
