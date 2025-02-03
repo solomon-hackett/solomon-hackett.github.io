@@ -83,6 +83,9 @@
     }
     .aboutHeading iframe {
       margin-left: 3%;
+      width: fit-content;
+      height: fit-content;
+      
     }
     .info {
       padding-right: 4%;
