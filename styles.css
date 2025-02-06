@@ -81,8 +81,12 @@
       background-repeat: repeat-x;
       font-family: "Jaro", sans-serif;
     }
-    .aboutHeading img {
+    .aboutHeading iframe {
       margin-left: 3%;
+      width: fit-content;
+      height: fit-content;
+      overflow:hidden;
+      
     }
     .info {
       padding-right: 4%;
@@ -283,9 +287,10 @@
       margin-top: 100px;
       font-weight: 500;
     }
-    .aboutHeading img {
+    .aboutHeading iframe {
       margin-left: 2%;
       margin-top: 42vw;
+      overflow:hidden;
     }
     .info {
       padding-right: 4%;
