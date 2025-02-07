@@ -233,7 +233,12 @@
       flex-direction: row;
       font-family: "dosis";
       gap: 70px;
+      .writing{
+        display: flex;
+        flex-direction: row;
+      }
     }
+    
     a{
       color:white;
       font-family: 'dosis';
