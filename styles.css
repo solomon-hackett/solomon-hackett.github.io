@@ -234,6 +234,11 @@
       font-family: "dosis";
       gap: 70px;
     }
+    .info a{
+      text-decoration: none;
+      color:white;
+      font-family: 'dosis';
+    }
   }
   }
   html {
