@@ -234,6 +234,9 @@
       width: fit-content;
       overflow: hidden;
     }
+    .heading h1{
+      margin:0;
+    }
     .info{
       font-family: 'dosis';
       font-family: "dosis";
