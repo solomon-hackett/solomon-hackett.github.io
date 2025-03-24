@@ -2,7 +2,7 @@
 @media only screen and (min-width: 1500px) {
   body {
     background-color: black;
-    background-image: url("/images/background.jpg");
+    background-image: url("/images/background.png");
     background-attachment: fixed;
     
   }
