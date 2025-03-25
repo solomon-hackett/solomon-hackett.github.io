@@ -17,7 +17,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to top, #148ba0, #f9dd94 70%);
+  background: linear-gradient(to top, #148ba0, #f9dd94 100%);
   border-radius: 10px;
 }
 
