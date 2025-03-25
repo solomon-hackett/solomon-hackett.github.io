@@ -1,3 +1,26 @@
+::-webkit-scrollbar {
+  width: 0.7vw;
+  height: 0.5vw;
+}
+
+::-webkit-scrollbar-track {
+  background: #373535bd;
+  border-radius: 10px;
+  border: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to top, #148ba0, #f9dd94 100%);
+  border-radius: 10px;
+  border: 3px solid #373535bd;
+  transition: 0.4s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to top, #148ba0, #f9dd94 70%);
+  border-radius: 10px;
+}
+
 /* mainpage */
 @media only screen and (min-width: 1500px) {
   body {
