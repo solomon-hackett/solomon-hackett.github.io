@@ -91,7 +91,7 @@
     }
     .heading h1 {
       text-align: right;
-      font-size: 170px;
+      font-size: 140px;
       margin: 0px;
       background: linear-gradient(to right, #148ba0, #f9dd94 100%);
       background-position: 0 85%;
@@ -101,7 +101,7 @@
     .heading h2 {
       text-align: right;
       float: right;
-      font-size: 50px;
+      font-size: 75px;
       margin-top: 0%;
       width: fit-content;
       background: linear-gradient(to right, #148ba0, #f9dd94 100%);
