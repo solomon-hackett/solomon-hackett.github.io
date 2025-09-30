@@ -207,8 +207,44 @@
       color: rgb(129, 124, 124);
     }
   }
-  .red-teaming{
-    color:white;
+  .red-teaming {
+    margin-top: 550px;
+    padding-top: 100px;
+    margin-left: 1%;
+    color: white;
+
+    .heading {
+      font-size: 70px;
+      background: linear-gradient(to left, #148ba0, #f9dd94 100%);
+      background-position: 0 85%;
+      background-size: 100% 2px;
+      background-repeat: repeat-x;
+      font-family: "Jaro", sans-serif;
+      margin: 0;
+      width: fit-content;
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      font-family: "dosis";
+      gap: 40px;
+    }
+    .infoPairs {
+      display: flex;
+      flex-direction: row;
+      gap: 200px;
+    }
+    .infoPairs p {
+      text-align: right;
+      font-size: 40px;
+      margin-right: 3%;
+    }
+    .infoPairs p1 {
+      text-align: left;
+      font-size: 40px;
+      margin-left: 2%;
+    }
+    overflow: visible;
   }
   .homeLab {
     margin-top: 550px;
